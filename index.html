@@ -9,8 +9,55 @@
     <script src="/assets/javascript/game.js"></script>
 </head>
 
-<body> 
+<body background="assets/images/background-image.png"> 
+<!-- Main container -->
+<div class="main-container">
+
+    <!-- Header -->
+    <header class="page-header">
+        <h1>Crystals Collector! <small>A game made with jQuery</small></h1>
+    </div>  
+
+    <!-- Instructions -->
+    <section class="row">
+        <div class="col-md-12">
+            <h3>Instructions:</h3>
+            <ul>
+                <li>When the game starts, you will receive a random number.</li>
+                <li>The four crystals below the scoreboard have different values, which are hidden until you click on one. Clicking on crystals adds points to your score.</li>
+                <li>You win by matching your score to the random number. You lose if your score goes above the random number.</li>
+                <li>Crystal values will change each time the game starts.</li>
+            </ul> 
+        </div>
+    </section>
+
+    <!-- NumGen/Scoreboard -->
+    <section class="row">
+        <div class="col-md-4">
+            <h3>Number to match:</h3>
+                <p class="randomNum"></p>
+        </div>
+        <div class="col-md-4"></div>
+            <h3>Score:</h3>
+                <p class="score"></p>
+        <div class="col-md-4">
+            <h3>Game tracker:</h3>
+                <p class="wins">Wins:</p>
+                <p class="losses">Losses:</p>
+        </div>
+    </section>
     
+    <!-- Gems -->
+    <section class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+    </section>
+
+
+
+</div>
 
 <script>
     
