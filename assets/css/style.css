@@ -1,0 +1,17 @@
+h1, 
+p,
+li {
+    color: white;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+h3 {
+    color: #2fcdd0;
+}
+
+.main-container {
+    margin-left: 5%;
+}
