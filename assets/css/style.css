@@ -1,5 +1,6 @@
 h1, 
 p,
+ul,
 li {
     color: white;
 }
@@ -12,6 +13,14 @@ h3 {
     color: #2fcdd0;
 }
 
-.main-container {
+/*img {
+    max-width: 10%;
+}*/
+
+.container {
     margin-left: 5%;
+}
+
+#gem-title {
+    margin-left: 1%;
 }
